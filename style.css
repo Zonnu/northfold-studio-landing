@@ -1,4 +1,4 @@
-/* Base reset */
+/* Base */
 *,
 *::before,
 *::after {
@@ -7,8 +7,8 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
   line-height: 1.5;
   color: #111;
   background: #fff;
@@ -19,24 +19,40 @@ main {
   padding: 2rem 1rem;
 }
 
-.hero {
+section {
   max-width: 640px;
   margin: 0 auto;
 }
 
-/* Typography */
+section + section {
+  margin-top: 3rem;
+}
+
+/* Type */
 h1 {
   font-size: 2rem;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 0 0 1rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  line-height: 1.3;
+  margin: 0 0 0.5rem;
 }
 
 p {
-  margin-bottom: 1.5rem;
+  margin: 0 0 1.25rem;
   color: #333;
 }
 
-/* CTA */
+/* Links + CTA */
 a {
   color: inherit;
   text-decoration: none;
@@ -46,4 +62,22 @@ a {
   display: inline-block;
   padding: 0.75rem 1.25rem;
   border: 1px solid #111;
+}
+
+/* Process list */
+.process ol {
+  margin: 1.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.process li {
+  margin-bottom: 1.25rem;
+}
+
+.process li::marker {
+  font-weight: 700;
+}
+
+.process li p {
+  margin: 0;
 }
