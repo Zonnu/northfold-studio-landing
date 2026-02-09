@@ -4,7 +4,7 @@ Simple, fast, mobile-first websites designed to turn visitors into clients.
 Built with plain HTML, CSS and JavaScript — no frameworks, no bloat.
 
 ## Live Demo
-- GitHub Pages: https://zonnu.github.io/northfold-studio/
+- GitHub Pages: https://zonnu.github.io/northfold-studio-landing/
 
 ## Features
 - Clean one-page layout
